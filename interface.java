@@ -4,10 +4,10 @@ interface animal{
 }
 class interface implements animal{
     public void sleep(){
-        System.out.println("sleeping");
+        System.out.println("sleeping...");
     }
    public void eat(){
-        System.out.println("eating");
+        System.out.println("eating..");
     }
     public static void main(String args[]){
         interface ob=new interface();
